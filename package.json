@@ -1,6 +1,6 @@
 {
   "name": "redoc-material-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A material-ui wrapper for ReDoc",
   "main": "index.js",
   "scripts": {
