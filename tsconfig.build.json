@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "lib": ["ESNext", "DOM"],
+    "declaration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules/@types"],
+    "allowJs": true,
+    "outDir": "./dist",
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules", "**/test.ts"]
+}
