@@ -1,6 +1,6 @@
 # Material UI ReDoc
 
-[![npm](http://img.shields.io/npm/v/redoc.svg)](https://www.npmjs.com/package/redoc-material-ui)
+[![npm](https://img.shields.io/npm/v/redoc-material-ui.svg)](https://www.npmjs.com/package/redoc-material-ui)
 
 This is a [Material UI](https://material-ui.com/) wrapper for [ReDoc](https://github.com/Redocly/redoc)
 
