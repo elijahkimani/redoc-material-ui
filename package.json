@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElijahKimani/redoc-material-ui.git"
+    "url": "git+https://github.com/elijahkimani/redoc-material-ui.git"
   },
   "keywords": [
     "ReDoc",
@@ -20,9 +20,9 @@
   "author": "EK",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ElijahKimani/redoc-material-ui/issues"
+    "url": "https://github.com/elijahkimani/redoc-material-ui/issues"
   },
-  "homepage": "https://github.com/ElijahKimani/redoc-material-ui#readme",
+  "homepage": "https://github.com/elijahkimani/redoc-material-ui#readme",
   "devDependencies": {
     "@material-ui/core": "^4.12.1",
     "@types/styled-components": "^5.1.11",
