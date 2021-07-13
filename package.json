@@ -7,8 +7,7 @@
     "prebuild": "rimraf dist",
     "build": "tsc -p tsconfig.build.json",
     "postbuild": "copyfiles package.json README.md dist",
-    "prepublish": "npm run build",
-    "publish": "npm publish dist"
+    "publish": "npm run build && npm publish dist"
   },
   "repository": {
     "type": "git",
