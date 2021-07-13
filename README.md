@@ -2,7 +2,7 @@
 
 This is a wrapper for [ReDoc](https://github.com/Redocly/redoc) using [Material UI](https://material-ui.com/)
 
-The aim of this wrapper is to provide <b>theming</b> support the <code>RedocStandalone</code> component using Material UI's [Theme](https://material-ui.com/customization/default-theme/#default-theme)
+The aim of this wrapper is to provide theming support ReDoc's <code>RedocStandalone</code> component using [Material UI's Theme](https://material-ui.com/customization/default-theme/#default-theme)
 
 ## Getting started
 
