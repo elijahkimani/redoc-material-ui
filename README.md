@@ -1,8 +1,10 @@
 # Material UI ReDoc
 
-This is a wrapper for [ReDoc](https://github.com/Redocly/redoc) using [Material UI](https://material-ui.com/)
+[![npm](http://img.shields.io/npm/v/redoc.svg)](https://www.npmjs.com/package/redoc-material-ui)
 
-The aim of this wrapper is to provide theming support ReDoc's <code>RedocStandalone</code> component using [Material UI's Theme](https://material-ui.com/customization/default-theme/#default-theme)
+This is a [Material UI](https://material-ui.com/) wrapper for [ReDoc](https://github.com/Redocly/redoc)
+
+The aim of this wrapper is to provide theming support for ReDoc's <code>RedocStandalone</code> using [Material UI's Theme](https://material-ui.com/customization/default-theme/#default-theme)
 
 ## Getting started
 
@@ -31,3 +33,11 @@ and use it somewhere in your component:
 ## Material UI Theming
 
 The component uses [useTheme](https://material-ui.com/styles/api/#usetheme-theme) hook to get the Theme object for your components and apply it appropriately to the component
+
+### (Optional) Override your application's theme
+
+You can also provide your own Material UI theme to the component
+
+```js
+<MuiRedocStandalone specUrl="url/to/your/spec" theme={your_mui_theme} />
+```
